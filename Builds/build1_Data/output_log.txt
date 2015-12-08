@@ -1,0 +1,69 @@
+Mono path[0] = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Managed'
+Mono path[1] = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Mono'
+Mono config path = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55310
+Multi-casting "[IP] 10.0.24.170 [Port] 55310 [Flags] 2 [Guid] 3617866170 [EditorId] 3033632748 [Version] 1048832 [Id] WindowsPlayer(balata) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.24.170:55310]
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: NVIDIA GeForce GTX 260 (ID=0x5e2)
+    Vendor:   NVIDIA
+    VRAM:     877 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.219 seconds
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2658 -> priority: 1 
+  Thread -> id: 288c -> priority: 1 
+[Server] function 'System.Void SimplePlayerScript::InitState()' called on client
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+SimplePlayerScript:InitState()
+SimplePlayerScript:Awake() (at C:\Users\sasha\Documents\RealOculusGame\Assets\Scripts\SimplePlayerScript.cs:18)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:60)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:80)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:436)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:416)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:372)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:522)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:554)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:768)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:888)
+ 
+(Filename: C:/Users/sasha/Documents/RealOculusGame/Assets/Scripts/SimplePlayerScript.cs Line: 18)
+
+[Server] function 'System.Void SimplePlayerScript::InitState()' called on client
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+SimplePlayerScript:InitState()
+SimplePlayerScript:Awake() (at C:\Users\sasha\Documents\RealOculusGame\Assets\Scripts\SimplePlayerScript.cs:18)
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:60)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:80)
+UnityEngine.Networking.ClientScene:OnObjectSpawn(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:436)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:416)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:372)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:522)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:554)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:768)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:888)
+ 
+(Filename: C:/Users/sasha/Documents/RealOculusGame/Assets/Scripts/SimplePlayerScript.cs Line: 18)
+
