@@ -2,9 +2,9 @@ Mono path[0] = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Manag
 Mono path[1] = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Mono'
 Mono config path = 'C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/sasha/Documents/RealOculusGame/Builds/build1_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55125
-Multi-casting "[IP] 10.0.24.170 [Port] 55125 [Flags] 2 [Guid] 1010424632 [EditorId] 2608709364 [Version] 1048832 [Id] WindowsPlayer(balata) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [10.0.24.170:55125]
+PlayerConnection initialized network socket : 0.0.0.0 55448
+Multi-casting "[IP] 10.0.24.170 [Port] 55448 [Flags] 2 [Guid] 2140364354 [EditorId] 2242496183 [Version] 1048832 [Id] WindowsPlayer(balata) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.24.170:55448]
 Initialize engine version: 5.2.0f3 (e7947df39b5c)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -24,20 +24,12 @@ Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\Unity
 Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.063 seconds
+- Completed reload, in  0.066 seconds
 desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\sasha\Documents\RealOculusGame\Builds\build1_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2a24 -> priority: 1 
-  Thread -> id: 28d4 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.499515 ms
-System memory in use before: 22.1 MB.
-System memory in use after: 22.1 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 313.
-Total: 0.242642 ms (FindLiveObjects: 0.012040 ms CreateObjectMapping: 0.026271 ms MarkObjects: 0.199587 ms  DeleteObjects: 0.003648 ms)
-
+  Thread -> id: 24ac -> priority: 1 
+  Thread -> id: 1d68 -> priority: 1 
